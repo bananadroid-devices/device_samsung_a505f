@@ -14,39 +14,44 @@
 # limitations under the License.
 #
 
-## Inherit from generic products, most specific first
+# Inherit from generic products, most specific first
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-## Inherit from a505f device
+# Inherit from a505f device
 $(call inherit-product, device/samsung/a505f/device.mk)
 
-## Boot Animation
+# Pixel Experience
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
+# Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
-## Quick Tap
+# Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
-## Inherit some common AOSP stuff
+# Inherit some common AOSP stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-## Enable updating of APEXes
+# Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-## Device identifier, this must come after all inclusions
-PRODUCT_DEVICE := a505f
+# Device identifier, this must come after all inclusions
+PRODUCT_DEVICE := universal-exynos9610
 PRODUCT_NAME := aosp_a505f
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A505F
+PRODUCT_MODEL := exynos9610
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 28
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-## Use the latest CTS approved build identifiers
+# Use the latest CTS approved build identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=a50 \
     PRODUCT_NAME=a50dd \
