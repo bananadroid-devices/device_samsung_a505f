@@ -11,7 +11,7 @@ Storage | 64GB, 128GB
 MicroSD | microSDXC (uses shared SIM slot)
 Battery | Li-Po 4000 mAh, non-removable
 Dimensions | 159.9 x 158.5 mm X 7.7 mm
-Display | 1080 x 2400 pixels, 20:9 ratio (~407 ppi density)
+Display | 1080x2340 ,pixels, 19:5:9 ratio (~403 ppi density)
 Rear camera 1 | 25 MP, f/1.7, 26mm (wide), PDAF
 Rear camera 2 | 8 MP, f/2.2, 13mm (ultrawide), 1/4.0", 1.12µm
 Rear camera 3 | 5 MP, f/2.2, (depth)
