@@ -20,4 +20,4 @@ Front camera | 25 MP, f/2.0, 25mm (wide), 1/2.8", 0.9µm
 Image  
   
   
-![alt text](https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a50.jpg "Samsung Galaxy A50")
+![alt text]([https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a50.jpg](https://www.gsmarena.com/samsung_galaxy_a50-pictures-9554.php) "Samsung Galaxy A50")
