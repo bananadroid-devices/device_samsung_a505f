@@ -20,5 +20,4 @@ Front camera | 25 MP, f/2.0, 25mm (wide), 1/2.8", 0.9µm
 Image  
   
   
-![alt text]( ![galaxy-a50-preto-removebg-preview](https://user-images.githubusercontent.com/106202775/193100835-3ab4f0cc-5c71-4875-ab3d-3a8419ac51ee.png)
-"Samsung Galaxy A50")
+![galaxy-a50-preto-removebg-preview](https://user-images.githubusercontent.com/106202775/193100992-edf947a3-86ca-4a5e-b71d-6d685c032c3a.png)
