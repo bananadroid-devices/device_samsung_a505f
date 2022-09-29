@@ -13,21 +13,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-## Inherit from the common tree
+# Inherit from the common tree
 include device/samsung/a50-common/BoardConfigCommon.mk
 
-## Inherit from the proprietary configuration
+# Inherit from the proprietary configuration
 include vendor/samsung/a505f/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/a505f
 
 TARGET_OTA_ASSERT_DEVICE := a505f,a50,a50dd
 
-## APEX image
+# APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
-## Manifest
+# Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/device_manifest.xml
 
-## Properties
+# Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
